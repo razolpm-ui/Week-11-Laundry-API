@@ -1,0 +1,15 @@
+{
+  "name": "week11-laundry-api",
+  "version": "1.0.0",
+  "description": "Laundry API with validation, API key authentication, and rate limiting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0"
+  }
+}
